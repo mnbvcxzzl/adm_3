@@ -1,0 +1,96 @@
+/* CSS Document */
+
+@font-face {
+	font-family: Bryndan Handwriting; 
+	src: url("fonts/BryndanHandwritingBook.ttf");
+}
+@font-face {
+	font-family: Finlandica; 
+	src: url("fonts/Finlandica-Regular.ttf");
+}
+body {
+	background: url("resources/background.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top; 
+	background-attachment: scroll;
+	margin: 30px;
+}
+header {
+	padding-top: 0px;
+	padding-bottom: 40px;
+	text-align: center;
+	font-family: Georgia, serif;
+}
+aside {
+	text-align: left;
+	background: #FFADC5;
+	padding: 10px;
+	color: white;
+	font-family: 'Bryndan Handwriting', 'Regular';
+	width: 180px;
+/*	height: 274px;*/
+	float: left;
+}
+nav ul {
+	margin-left: 750px;
+}
+nav li {
+	font-family: 'Bryndan Handwriting', 'Regular';
+	font-size: 25px;
+	display: inline;
+	margin: 15px;
+}
+A {
+	color: pink;
+}
+A:visited {
+	color: #D8BFD8; /* Цвет посещенных ссылок */
+}
+A:active {
+	color: deeppink; /* Цвет активных ссылок */
+}
+h1 {
+	font-size: 120px;
+}
+h2 {
+	font-family: 'Bryndan Handwriting', 'Regular';
+	color: pink;
+	font-size: 40px;
+	text-align: center;
+}
+.jpn {
+	padding-top: 200px;
+	font-family: 'Bryndan Handwriting', 'Regular';
+	color: white;
+	text-shadow: black 0 0 30px;
+}
+section {
+	padding-top: 10px;
+	margin: 60px;
+}
+#sec1 {
+	text-align: right;
+	padding-right: 30px;
+}
+.sec2 {
+	text-align: left;
+	padding-left: 30px;
+}
+.gg {
+	padding: 20px;
+	text-align: center;
+}
+p {
+	font-size: 15px;
+	font-family: 'Finlandica', 'Regular';
+}
+figure {
+	text-align: center;
+	font-family: 'Bryndan Handwriting', 'Regular';
+	color: black;
+	font-size: 18px;
+}
+footer {
+	padding-top: 15px;
+}
